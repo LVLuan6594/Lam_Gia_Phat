@@ -35,3 +35,4 @@ Tải toàn bộ nội dung bên trong dist/ (index.html, assets/, images/) lên
 ## Tài liệu tham khảo thiết kế
 
 PDF Lâm Gia Phát và bốn ảnh bảng hiệu là nguồn nhận diện và nội dung. Tham khảo cách phân nhóm dịch vụ ở [An Phong](https://www.anphong.vn/dich-vu) và cách dùng ảnh đại diện cho danh mục ở [Nhà Xinh](https://nhaxinh.com/). Ảnh minh họa của landing page được lưu trực tiếp trong dự án.
+# Lam_Gia_Phat

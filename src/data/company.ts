@@ -64,5 +64,5 @@ export function mapUrl(address: string) {
 }
 
 export const headquartersMapEmbed =
-  'https://www.google.com/maps?q=' + encodeURIComponent(company.headquarters) + '&output=embed'
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.216035447108!2d105.7482150760214!3d9.999005873049956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089ba4ceae0df%3A0x8c8c21190a65638e!2zMzU1IEjDoG5nIFhvw6BpLCBDw6FpIFLEg25nLCBD4bqnbiBUaMahLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1795504548289!5m2!1sen!2s'
 export const headquartersMapUrl = mapUrl(company.headquarters)
