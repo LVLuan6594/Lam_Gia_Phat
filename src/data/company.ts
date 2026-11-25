@@ -17,6 +17,13 @@ export const images = {
   property: imagePath('nha-o.webp'),
   records: imagePath('ho-so.webp'),
   construction: imagePath('thi-cong.webp'),
+  projects: [
+    { src: imagePath('congtrinh1.jpg'), alt: 'Mặt tiền nhà phố nhiều tầng đang thi công, có giàn giáo', objectPosition: 'center 46%' },
+    { src: imagePath('congtrinh2.jpg'), alt: 'Góc nhìn nghiêng nhà phố đang thi công', objectPosition: 'center 42%' },
+    { src: imagePath('congtrinh3.jpg'), alt: 'Nhà phố đang thi công nhìn qua hàng cây', objectPosition: 'center 43%' },
+    { src: imagePath('congtrinh4.jpg'), alt: 'Nhà phố hiện đại đang xây dựng với mặt tiền bê tông', objectPosition: 'center 38%' },
+    { src: imagePath('congtrinh5.jpg'), alt: 'Mặt tiền nhà phố hiện đại đang trong quá trình xây dựng', objectPosition: 'center 40%' },
+  ],
   coffee: imagePath('cafe.jpg'),
   coffeeDrink: imagePath('cafe1.jpg'),
   coffeeMenu: imagePath('cafe2.jpg'),
