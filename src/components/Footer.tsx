@@ -63,7 +63,19 @@ export function Footer() {
           <img src={images.logo} alt="" />
           <strong>{company.name}</strong>
         </div>
-        <a href="#trang-chu">Về đầu trang ↑</a>
+        <div className="footer-credits">
+          <p className="footer-copyright">
+            © {new Date().getFullYear()} Bản quyền thuộc về Công ty TNHH TM-DV Tư vấn BĐS &amp; Xây dựng{' '}
+            <span className="footer-company-name">Lâm Gia Phát</span>.
+          </p>
+          <p className="footer-developer">
+            Sản phẩm được phát triển bởi Dev -{' '}
+            <a className="footer-developer-link" href="https://www.facebook.com/vuluan652024" target="_blank" rel="noopener noreferrer">
+              Lê Vũ Luân
+            </a>{' '}
+            - <span className="footer-developer-phone">0366183317</span>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
