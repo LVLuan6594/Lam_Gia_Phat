@@ -35,7 +35,7 @@ export function Hero() {
             </div>
           </div>
           <div className="arch">
-            <img src={images.hero} alt="Nhà ở trong ánh hoàng hôn" fetchPriority="high" />
+            <img src={images.hero} alt="Minh họa nhà phố hai tầng với mặt tiền hiện đại" fetchPriority="high" />
           </div>
         </div>
         <div className="hero-highlights">

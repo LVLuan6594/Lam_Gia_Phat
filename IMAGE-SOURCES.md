@@ -5,7 +5,7 @@ Các tệp nằm trong `public/images/`. Ghi đè tệp cùng tên và định d
 | Vị trí / nội dung | Tệp | Tác giả và trang nguồn | Ảnh thay thế đề xuất |
 | --- | --- | --- | --- |
 | Nhận diện Gia Phát | logo-gia-phat.png | Trích từ bảng hiệu nền vàng do chủ dự án cung cấp | Giữ tỷ lệ gốc 103:80 và màu xanh nguyên bản. Nên bổ sung logo gốc độ phân giải cao. |
-| Mở đầu, kiến trúc nhà ở | hero-nha-o.webp | Binyamin Mellish · [Pexels](https://www.pexels.com/photo/brown-and-gray-painted-house-in-front-of-road-1396122/) | 3:2 ngang, từ 1600 × 1067 px. Đặt ngôi nhà giữa ảnh, chừa trời trên mái và hai bên để khung vòm giữ được mặt tiền trên điện thoại. |
+| Mở đầu, nhà phố hai tầng | Home.png | Ảnh do chủ dự án cung cấp | 1402 × 1122 px, tỷ lệ gần 5:4; khung chữ nhật bo góc CSS để có thể thay ảnh dễ dàng. |
 | Hình minh họa nhà phố | nha-o.webp | Văn Long Bùi · [Pexels](https://www.pexels.com/photo/a-woman-riding-a-bike-in-front-of-an-old-building-in-vietnam-4375320/) | 3:2 ngang. Ảnh hiện tại chụp nhà phố Hội An. |
 | Hình minh họa hồ sơ, bản vẽ | ho-so.webp | Antoni Shkraba · [Pexels](https://www.pexels.com/photo/architect-writing-on-floor-plans-5292194/) | 3:2 ngang, giữ bản vẽ và bàn tay ở vùng giữa khi cắt ảnh. |
 | Hình minh họa thi công | thi-cong.webp | Brett Jordan · [Pexels](https://www.pexels.com/photo/a-brick-house-under-construction-4692281/) | 4:3 ngang, từ 1200 × 900 px. |

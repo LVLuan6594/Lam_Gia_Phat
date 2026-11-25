@@ -13,7 +13,7 @@ const imagePath = (name: string) => import.meta.env.BASE_URL + 'images/' + name
 
 export const images = {
   logo: imagePath('logo-gia-phat.png'),
-  hero: imagePath('hero-nha-o.webp'),
+  hero: imagePath('Home.png'),
   property: imagePath('nha-o.webp'),
   records: imagePath('ho-so.webp'),
   construction: imagePath('thi-cong.webp'),
