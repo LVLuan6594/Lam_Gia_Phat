@@ -15,8 +15,8 @@ export function Cafe() {
           <img className="cafe-intro-image" src={images.coffee} alt="Không gian bên trong Cà phê Lâm Gia Phát" loading="lazy" />
           <div>
             <p className="eyebrow">Cà phê {company.name}</p>
-            <h2>Cà phê &amp; điểm tâm sáng</h2>
-            <p>Thưởng thức cà phê và điểm tâm sáng trong phòng lạnh.</p>
+            <h2>Cà phê &amp; <span className="cafe-heading-phrase">điểm tâm sáng</span></h2>
+            <p className="cafe-description">Thưởng thức cà phê và điểm tâm sáng trong phòng lạnh.</p>
             <p>{company.office}</p>
             <a className="button light" href="#van-phong">Xem địa chỉ quán</a>
           </div>

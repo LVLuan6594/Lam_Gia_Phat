@@ -11,6 +11,30 @@ import { Footer } from './components/Footer'
 
 export default function App() {
   useEffect(() => {
+    if (!import.meta.env.PROD) return
+
+    const restrictShortcuts = (event: KeyboardEvent) => {
+      const target = event.target
+      if (target instanceof HTMLElement && (target.matches('input, textarea') || target.isContentEditable)) return
+
+      const key = event.key.toLowerCase()
+      const noModifiers = !event.ctrlKey && !event.altKey && !event.shiftKey && !event.metaKey
+      const windowsLinuxShortcut =
+        (event.ctrlKey && !event.altKey && !event.metaKey && event.shiftKey && ['i', 'j', 'c'].includes(key)) ||
+        (event.ctrlKey && !event.altKey && !event.metaKey && !event.shiftKey && key === 'u')
+      const macShortcut =
+        event.metaKey && event.altKey && !event.ctrlKey && !event.shiftKey && ['i', 'j', 'c', 'u'].includes(key)
+
+      if ((key === 'f12' && noModifiers) || windowsLinuxShortcut || macShortcut) {
+        if (event.cancelable) event.preventDefault()
+      }
+    }
+
+    window.addEventListener('keydown', restrictShortcuts)
+    return () => window.removeEventListener('keydown', restrictShortcuts)
+  }, [])
+
+  useEffect(() => {
     if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
 
     const targets = [...document.querySelectorAll<HTMLElement>('[data-scroll-reveal]')]
