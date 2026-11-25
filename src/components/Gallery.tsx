@@ -49,7 +49,7 @@ export function Gallery() {
     <section className="tint gallery-section" id="hinh-anh" data-scroll-reveal>
       <div className="wrap section">
         <h2 className="gallery-heading">
-          <span className="gallery-heading-main">Công trình đã xây dựng</span>
+          <span className="gallery-heading-main">Một trong những công trình đã xây dựng</span>
           <span className="gallery-heading-sub">Bởi Lâm Gia Phát</span>
         </h2>
         <div className="project-album-grid">
